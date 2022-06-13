@@ -30,6 +30,6 @@ public class IndexController {
         PostsResponseDto dto = postsService.findById(id);
         model.addAttribute("post", dto);
 
-        return "psots-update";
+        return "posts-update";
     }
 }
